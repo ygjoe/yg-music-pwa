@@ -7,6 +7,6 @@
             "sizes": "512x512"
         }
     ],
-    "start_url": "/yg-music-pwa",
+    "start_url": "https://ygjoe.github.io/yg-music-pwa/",
     "display": "standalone"
 }
