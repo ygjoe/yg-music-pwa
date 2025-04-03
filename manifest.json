@@ -1,0 +1,12 @@
+{
+    "name": "yg music pwa",
+    "icons": [
+        {
+            "src": "icons/address.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+}
