@@ -12,6 +12,23 @@ export default defineConfig({
       devOptions: {
         enabled: true,
       },
+      manifest: {
+        name: "yg music pwa",
+        short_name: "YGMusic",
+        theme_color: "#ffffff",
+        icons: [
+          {
+            src: "public/music.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "public/music.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
+      },
     }),
   ],
   server: {
