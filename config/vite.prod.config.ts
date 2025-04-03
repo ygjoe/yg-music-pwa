@@ -9,6 +9,18 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
+      manifest: {
+        name: "yg music pwa",
+        short_name: "YGMusic",
+        theme_color: "#ffffff",
+        icons: [
+          {
+            src: "/icons/music.png",
+            sizes: "256x256",
+            type: "image/png",
+          },
+        ],
+      },
     }),
   ],
 });
