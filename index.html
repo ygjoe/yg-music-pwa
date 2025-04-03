@@ -10,9 +10,9 @@
         if ("serviceWorker" in navigator) {
           try {
             const registration = await navigator.serviceWorker.register(
-              "main.js",
+              "/yg-music-pwa/main.js",
               {
-                scope: "/",
+                scope: "/yg-music-pwa/",
               }
             );
             if (registration.installing) {
